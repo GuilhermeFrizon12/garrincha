@@ -20,7 +20,7 @@ GET https://deckofcardsapi.com/api/deck/new/?jokers_enabled=true.
 
 # REMOVER E LISTAR CARTAS DE UMA PILHA
 
-.URL : GET /api/deck/{deck_id}/pile/{pile_name}/list/
+.URL : [GET /api/deck/{deck_id}/pile/{pile_name}/list/](https://deckofcardsapi.com/api/deck/<<deck_id>>/pile/<<pile_name>>/list/)
 .PARAMETRO : 'cards' que significa cartas a remover, separadas por vírgula, ex: (AS,10D).
 .DESCRIÇÃO: Lista cartas atualmente em uma pilha. 
 
